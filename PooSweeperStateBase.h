@@ -2,8 +2,8 @@
 // Chair of Algorithms and Data Structures.
 // Author: Hannah Bast
 
-#ifndef PROJEKT_POOSWEEPERSTATEBASE_H_
-#define PROJEKT_POOSWEEPERSTATEBASE_H_
+#ifndef POOSWEEPERSTATEBASE_H_
+#define POOSWEEPERSTATEBASE_H_
 
 #include <vector>
 #include "./PooSweeperMove.h"
@@ -48,4 +48,4 @@ class PooSweeperStateBase {
   virtual size_t numMarked() const = 0;
 };
 
-#endif  // PROJEKT_POOSWEEPERSTATEBASE_H_
+#endif  // POOSWEEPERSTATEBASE_H_
