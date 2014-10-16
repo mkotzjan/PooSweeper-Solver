@@ -1,8 +1,8 @@
 // Copyright 2014, University of Freiburg.
 // Author: Michael Kotzjan
 
-#ifndef PROJEKT_POOSWEEPERSTATE_H_
-#define PROJEKT_POOSWEEPERSTATE_H_
+#ifndef POOSWEEPERSTATE_H_
+#define POOSWEEPERSTATE_H_
 
 #include <gtest/gtest.h>
 #include <vector>
@@ -71,4 +71,4 @@ class PooSweeperState : public PooSweeperStateBase{
   void revealPoos();
 };
 
-#endif  // PROJEKT_POOSWEEPERSTATE_H_
+#endif  // POOSWEEPERSTATE_H_
