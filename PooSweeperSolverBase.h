@@ -2,8 +2,8 @@
 // Chair of Algorithms and Data Structures.
 // Author: Hannah Bast <bast@cs.uni-freiburg.de>.
 
-#ifndef PROJEKT_POOSWEEPERSOLVERBASE_H_
-#define PROJEKT_POOSWEEPERSOLVERBASE_H_
+#ifndef POOSWEEPERSOLVERBASE_H_
+#define POOSWEEPERSOLVERBASE_H_
 
 #include "./PooSweeperMove.h"
 #include "./PooSweeperStateBase.h"
@@ -22,4 +22,4 @@ class PooSweeperSolverBase {
   virtual void reset() = 0;
 };
 
-#endif  // PROJEKT_POOSWEEPERSOLVERBASE_H_
+#endif  // POOSWEEPERSOLVERBASE_H_
