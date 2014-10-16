@@ -3,8 +3,8 @@
 
 #include "./PooSweeperDisplayBase.h"
 
-#ifndef PROJEKT_POOSWEEPERDISPLAY_H_
-#define PROJEKT_POOSWEEPERDISPLAY_H_
+#ifndef POOSWEEPERDISPLAY_H_
+#define POOSWEEPERDISPLAY_H_
 
 class PooSweeperDisplayBase;
 extern PooSweeperDisplayBase* DISPLAY;
@@ -14,4 +14,4 @@ class PooSweeperDisplay : public PooSweeperDisplayBase {
  public:
   void show(const PooSweeperStateBase* state) const;
 };
-#endif  // PROJEKT_POOSWEEPERDISPLAY_H_
+#endif  // POOSWEEPERDISPLAY_H_
